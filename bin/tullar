@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require './tullar'
+
+while true
+  story = Story.new
+  story.fill_in
+  story.show_and_read
+  printf "Do another story? (yes/no) "
+  break if gets.strip == "no"
+end
