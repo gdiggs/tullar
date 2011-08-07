@@ -10,5 +10,6 @@
 * Random story
 * Ability to output to file
 * Ability to do another store
+* Package as gem
 
 ### License: MIT License
