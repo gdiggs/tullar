@@ -40,9 +40,9 @@ class Story
   
   private
   def ask_for(term)
-    term = term.gsub(/:/, '').gsub(/_/, ' ')
-    printf "Please enter a '#{Shell.in_color(term, :cyan)}'\t"
-    gets.strip
+    new_term = term.gsub(/:/, '').gsub(/_/, ' ')
+    printf "Please enter a '#{Shell.in_color(new_term, :cyan)}'\t"
+    term.gsub(/:.*:/, gets.strip)
   end
 end
 
