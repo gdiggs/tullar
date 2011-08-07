@@ -5,11 +5,8 @@
 ### Author: Gordon Diggs
 
 ### TODO
-* Add color to output
 * Write more stories
-* Random story
 * Ability to output to file
-* Ability to do another store
 * Package as gem
 
 ### License: MIT License
