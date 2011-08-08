@@ -1,5 +1,4 @@
 class Story
-  DEFAULT_VOICE = "Alex"
   STORY_DIR = "./stories"
   attr_accessor :body, :words
 
@@ -22,11 +21,11 @@ class Story
   end
 
   def read
-    `say -v #{DEFAULT_VOICE} #{self.words.join(' ')}`
+    Speech.say self.words.join(' ')
   end
 
   def show
-    printf "#{self.words_with_color}\n"
+    puts self.words_with_color
   end
 
   def show_and_read
