@@ -4,6 +4,8 @@
 
 ### Author: Gordon Diggs
 
+Run with `./bin/tullar`
+
 ### TODO
 * Write more stories
 * Ability to output to file
